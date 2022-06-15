@@ -12,7 +12,7 @@ RUN make plugins && make debug-script
 
 COPY . ./
 
-FROM public.ecr.aws/eks-distro-build-tooling/eks-distro-minimal-base:latest.2022
+FROM public.ecr.aws/eks-distro-build-tooling/eks-distro-minimal-base-csi:latest.2
 
 WORKDIR /init
 
